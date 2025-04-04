@@ -3,7 +3,7 @@
 #include <fstream>
 using namespace std;
 
-// ...
+
 vector<vector<int>> read_matrix_from_file(const string &filename, size_t &N) {
     ifstream infile(filename);
     if (!infile) {
